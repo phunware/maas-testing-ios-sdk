@@ -1,5 +1,5 @@
 # PWCore Changelog
-## 3.3.1 (Thursday, Feb 22nd, 2017)
+## 3.3.2 (Thursday, Feb 22nd, 2017)
 #### Bug fixes / performance enhancements
 * Fixed issue with initial network requests using JWT
 
