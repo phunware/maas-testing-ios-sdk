@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>PWCME Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">PWCore </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Phunware, Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/addContent:containerID:structureID:parentContentID:success:failure:">+ addContent:containerID:structureID:parentContentID:success:failure:</option>
+		
+		<option value="//api/name/addContent:containerID:structureID:success:failure:">+ addContent:containerID:structureID:success:failure:</option>
+		
+		<option value="//api/name/cacheTTL">+ cacheTTL</option>
+		
+		<option value="//api/name/clearCache">+ clearCache</option>
+		
+		<option value="//api/name/deleteContentChildrenForContentID:success:failure:">+ deleteContentChildrenForContentID:success:failure:</option>
+		
+		<option value="//api/name/deleteContentForContentID:traverse:success:failure:">+ deleteContentForContentID:traverse:success:failure:</option>
+		
+		<option value="//api/name/getAllContainersWithSuccess:failure:">+ getAllContainersWithSuccess:failure:</option>
+		
+		<option value="//api/name/getAllContentsForContainerID:depth:limit:offset:success:failure:">+ getAllContentsForContainerID:depth:limit:offset:success:failure:</option>
+		
+		<option value="//api/name/getAllContentsForContainerID:depth:success:failure:">+ getAllContentsForContainerID:depth:success:failure:</option>
+		
+		<option value="//api/name/getContainerWithContainerID:success:failure:">+ getContainerWithContainerID:success:failure:</option>
+		
+		<option value="//api/name/getContentForContentID:containerID:structureID:parentID:limit:offset:success:failure:">+ getContentForContentID:containerID:structureID:parentID:limit:offset:success:failure:</option>
+		
+		<option value="//api/name/getContentForContentID:containerID:structureID:success:failure:">+ getContentForContentID:containerID:structureID:success:failure:</option>
+		
+		<option value="//api/name/getContentsForContainerID:parentID:structureID:limit:offset:success:failure:">+ getContentsForContainerID:parentID:structureID:limit:offset:success:failure:</option>
+		
+		<option value="//api/name/getContentsForContainerID:structureID:limit:offset:success:failure:">+ getContentsForContainerID:structureID:limit:offset:success:failure:</option>
+		
+		<option value="//api/name/getSchemaWithSchemaID:success:failure:">+ getSchemaWithSchemaID:success:failure:</option>
+		
+		<option value="//api/name/getSchemasWithLimit:offset:success:failure:">+ getSchemasWithLimit:offset:success:failure:</option>
+		
+		<option value="//api/name/getStructureWithID:containerID:depth:includeSchema:success:failure:">+ getStructureWithID:containerID:depth:includeSchema:success:failure:</option>
+		
+		<option value="//api/name/getStructuresForContainerID:depth:includeSchema:success:failure:">+ getStructuresForContainerID:depth:includeSchema:success:failure:</option>
+		
+		<option value="//api/name/setCacheTTL:">+ setCacheTTL:</option>
+		
+		<option value="//api/name/trimCacheToDate:">+ trimCacheToDate:</option>
+		
+		<option value="//api/name/updateContentForContentID:containerID:structureID:parentContentID:updatedContent:success:failure:">+ updateContentForContentID:containerID:structureID:parentContentID:updatedContent:success:failure:</option>
+		
+		<option value="//api/name/updateContentForContentID:containerID:structureID:updatedContent:success:failure:">+ updateContentForContentID:containerID:structureID:updatedContent:success:failure:</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">PWCME Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>PWCME.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><code>PWCME</code> provides a full-featured content management solution that allows you to deliver engaging content to your users.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Container Methods" name="task_Container Methods"></a>
+						<h2 class="task-title">Container Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getAllContainersWithSuccess:failure:" title="getAllContainersWithSuccess:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getAllContainersWithSuccess:failure:">+&nbsp;getAllContainersWithSuccess:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a list of the available containers.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getAllContainersWithSuccess:(void ( ^ ) ( NSArray *containers ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getAllContainersWithSuccess:failure:</code> succeeds. This block has no return value and takes one argument: the containers received from the server (an <code>NSArray</code> object that contains <a href="../Classes/PWContainer.html"><code>PWContainer</code></a> objects).</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getAllContainersWithSuccess:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getContainerWithContainerID:success:failure:" title="getContainerWithContainerID:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getContainerWithContainerID:success:failure:">+&nbsp;getContainerWithContainerID:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a <a href="../Classes/PWContainer.html"><code>PWContainer</code></a> object for the specified Container ID.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getContainerWithContainerID:(NSString *)<em>containerID</em> success:(void ( ^ ) ( PWContainer *container ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The requested Container ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getContainerWithContainerID:success:failure:</code> succeeds. This block has no return value and takes one argument: the container received from the server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getContainerWithContainerID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Schema Methods" name="task_Schema Methods"></a>
+						<h2 class="task-title">Schema Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getSchemasWithLimit:offset:success:failure:" title="getSchemasWithLimit:offset:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSchemasWithLimit:offset:success:failure:">+&nbsp;getSchemasWithLimit:offset:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a list of the available containers.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getSchemasWithLimit:(NSInteger)<em>limit</em> offset:(NSInteger)<em>offset</em> success:(void ( ^ ) ( NSArray *schemas , PWPagination *pagination , BOOL pagingEnabled ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>Specifies the number of results to return. This is useful for pagination. Default value is 10 and maximum value is 100.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Specifies the number of results to offset. This is useful for pagination. Default value is 0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getSchemasWithLimit:limit:offset:success:failure:</code> succeeds. This block has no return value and takes one argument: the schemas received from the server (an <code>NSArray</code> object that contains <a href="../Classes/PWSchema.html"><code>PWSchema</code></a> objects).</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getSchemasWithLimit:limit:offset:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getSchemaWithSchemaID:success:failure:" title="getSchemaWithSchemaID:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSchemaWithSchemaID:success:failure:">+&nbsp;getSchemaWithSchemaID:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a <a href="../Classes/PWSchema.html"><code>PWSchema</code></a> object for the specified Schema ID.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getSchemaWithSchemaID:(NSString *)<em>schemaID</em> success:(void ( ^ ) ( PWSchema *schema ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>schemaID</code></th>
+						<td><p>The requested Schema ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getSchemaWithSchemaID:success:failure:</code> succeeds. This block has no return value and takes one argument: the schema received from the server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getSchemaWithSchemaID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Structure Methods" name="task_Structure Methods"></a>
+						<h2 class="task-title">Structure Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getStructuresForContainerID:depth:includeSchema:success:failure:" title="getStructuresForContainerID:depth:includeSchema:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getStructuresForContainerID:depth:includeSchema:success:failure:">+&nbsp;getStructuresForContainerID:depth:includeSchema:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to get a structure. Depending on the request parameters, this may return a multi-level structure or a single-level structure. Traversal will begin at the root level. Otherwise, traversal will begin at the structure item with the specified id.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getStructuresForContainerID:(NSString *)<em>containerID</em> depth:(NSInteger)<em>depth</em> includeSchema:(BOOL)<em>schema</em> success:(void ( ^ ) ( NSArray *structures ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the structures for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>depth</code></th>
+						<td><p>The depth to traverse into child structures. If the depth is set to 0 then no child structures will be returned, if the depth is set to 1 then the immediate child structures will be returned, and so on. To get the full hierarchy of children use <code>kPWCMEDepthFullHierarchy</code>. Be careful when using this value for large structures.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>schema</code></th>
+						<td><p>If <code>YES</code> then the schema will be returned for structures that have one.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getStructureForContainerID:depth:includeSchema:success:failure:</code> succeeds. This block has no return value and takes one argument: The structure received from the server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getStructureForContainerID:depth:includeSchema:success:failure:</code> fails. This block has no return value and takes one argument:, an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getStructureWithID:containerID:depth:includeSchema:success:failure:" title="getStructureWithID:containerID:depth:includeSchema:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getStructureWithID:containerID:depth:includeSchema:success:failure:">+&nbsp;getStructureWithID:containerID:depth:includeSchema:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to get a structure for a specified structure ID. Depending on the request parameters, this may return a multi-level structure, or a single-level structure. Traversal will begin at the root level. Otherwise, traversal will begin at the structure item with the specified ID.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getStructureWithID:(NSUInteger)<em>structureID</em> containerID:(NSString *)<em>containerID</em> depth:(NSInteger)<em>depth</em> includeSchema:(BOOL)<em>schema</em> success:(void ( ^ ) ( PWStructure *structure ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>depth</code></th>
+						<td><p>The depth to traverse into child structures. If the depth is set to 0 (default), then no child structures will be returned; if the depth is set to 1, then the immediate child structures will be returned; and so on. To get the full hierarchy of children, use <code>kPWCMEDepthFullHierarchy</code>. Be careful when using this value for large structures.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>schema</code></th>
+						<td><p>If <code>YES</code>, then the schema will be returned for structures that have one.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getStructureForContainerID:depth:includeSchema:success:failure:</code> succeeds. This block has no return value and takes one argument: the structure received from the server.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getStructureForContainerID:depth:includeSchema:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Content Methods" name="task_Content Methods"></a>
+						<h2 class="task-title">Content Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getContentForContentID:containerID:structureID:parentID:limit:offset:success:failure:" title="getContentForContentID:containerID:structureID:parentID:limit:offset:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getContentForContentID:containerID:structureID:parentID:limit:offset:success:failure:">+&nbsp;getContentForContentID:containerID:structureID:parentID:limit:offset:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the content based on the structure hierarchy and schemas. The structure of the response data for this method relies completely on the structure of the structures and schemas. Content will be retrieved starting from the root level.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getContentForContentID:(NSString *)<em>contentID</em> containerID:(NSString *)<em>containerID</em> structureID:(NSInteger)<em>structureID</em> parentID:(NSString *)<em>parentID</em> limit:(NSInteger)<em>limit</em> offset:(NSInteger)<em>offset</em> success:(void ( ^ ) ( NSDictionary *contents ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentID</code></th>
+						<td><p>The Content ID to fetch.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure item to start at. If no Structure ID is specified, then the content will be retrieved starting from the root level. Otherwise, the content will be retrieved starting at the level in the structure hierarchy that the specified structure item resides.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parentID</code></th>
+						<td><p>The ID of the parent content item. This is used to filter to appropriate child content for a specific branch in the content hierarchy.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>Specifies the number of results to return. This is useful for pagination. Default value is 10 and maximum value is 100. NOTE: This parameter is only used when the structure_id references a structure item of type array.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Specifies the number of results to offset. This is useful for pagination. Default value is 0. NOTE: This parameter is only used when the structure_id references a structure item of type array.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getContentForContainerID:success:failure:</code> succeeds. This block has no return value and takes one argument: The content received from the server. The structure of the response data for this method relies completely on the structure of the structures and schemas.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getContentForContainerID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getContentForContentID:containerID:structureID:success:failure:" title="getContentForContentID:containerID:structureID:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getContentForContentID:containerID:structureID:success:failure:">+&nbsp;getContentForContentID:containerID:structureID:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the content for the specified Content ID and Container ID. The structure of the response data for this method relies completely on the structures and schemas.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getContentForContentID:(NSString *)<em>contentID</em> containerID:(NSString *)<em>containerID</em> structureID:(NSInteger)<em>structureID</em> success:(void ( ^ ) ( NSDictionary *content ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentID</code></th>
+						<td><p>The Content ID to fetch.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure item to start at.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getContentForContentID:containerID:success:failure:</code> succeeds. This block has no return value and takes one argument: the content received from the server. The structure of the response data for this method relies completely on the structure of the structures and schemas.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getContentForContentID:containerID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getAllContentsForContainerID:depth:limit:offset:success:failure:" title="getAllContentsForContainerID:depth:limit:offset:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getAllContentsForContainerID:depth:limit:offset:success:failure:">+&nbsp;getAllContentsForContainerID:depth:limit:offset:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets all content based on the menu hierarchy and schemas. The structure of the response data for this method relies completely on the structure and schemas.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getAllContentsForContainerID:(NSString *)<em>containerID</em> depth:(NSInteger)<em>depth</em> limit:(NSInteger)<em>limit</em> offset:(NSInteger)<em>offset</em> success:(void ( ^ ) ( NSArray *contents , PWPagination *pagination , BOOL pagingEnabled ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>depth</code></th>
+						<td><p>The depth to traverse into child structures. If the depth is set to 0 then no child structures will be returned, if the depth is set to 1 then the immediate child structures will be returned, and so on. To get the full hierarchy of children use <code>kPWCMEDepthFullHierarchy</code>. Be careful when using this value for large structures.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>The number of contents to be fetched.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>The offset from where the contents need be fetched.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getAllContentsForContainerID:limit:offset:success:failure:</code> succeeds. This block has no return value and takes three arguments: the content received from the server, a <a href="../Classes/PWPagination.html"><code>PWPagination</code></a> object that details content pagination information and a BOOL value that indicates whether or not paging is enabled. The structure of the content data relies completely on the structure of the structures and schemas.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getAllContentsForContainerID:limit:offset:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It&rsquo;s important to note that this method only returns the specified pagination parameters for the root level array object. Nested arrays default to a pagination of 10 and a limit of 0.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getContentsForContainerID:structureID:limit:offset:success:failure:" title="getContentsForContainerID:structureID:limit:offset:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getContentsForContainerID:structureID:limit:offset:success:failure:">+&nbsp;getContentsForContainerID:structureID:limit:offset:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets all content for a specific Container ID and Structure ID. The structure of the content data for this method relies completely on the structure and schemas.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getContentsForContainerID:(NSString *)<em>containerID</em> structureID:(NSInteger)<em>structureID</em> limit:(NSInteger)<em>limit</em> offset:(NSInteger)<em>offset</em> success:(void ( ^ ) ( NSArray *contents , PWPagination *pagination , BOOL pagingEnabled ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>Specifies the number of results to return. This is useful for pagination. Default value is 10 and maximum value is 100.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Specifies the number of results to offset. This is useful for pagination. Default value is 0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getContentsForContainerID:structureID:limit:offset:success:failure:</code> succeeds. This block has no return value and takes three arguments: the content received from the server, a <a href="../Classes/PWPagination.html"><code>PWPagination</code></a> object that details content pagination information and a BOOL value that indicates whether or not paging is enabled. The structure of the content data relies completely on the structure of the structures and schemas.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getContentsForContainerID:structureID:limit:offset:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getContentsForContainerID:parentID:structureID:limit:offset:success:failure:" title="getContentsForContainerID:parentID:structureID:limit:offset:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getContentsForContainerID:parentID:structureID:limit:offset:success:failure:">+&nbsp;getContentsForContainerID:parentID:structureID:limit:offset:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets all content for a specific Container ID, Parent ID, and Structure ID. The structure of the content data for this method relies completely on the structure and schemas.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getContentsForContainerID:(NSString *)<em>containerID</em> parentID:(NSString *)<em>parentID</em> structureID:(NSInteger)<em>structureID</em> limit:(NSInteger)<em>limit</em> offset:(NSInteger)<em>offset</em> success:(void ( ^ ) ( NSArray *contents , PWPagination *pagination , BOOL pagingEnabled ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parentID</code></th>
+						<td><p>The ID of the parent content to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>Specifies the number of results to return. This is useful for pagination. Default value is 10 and maximum value is 100.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Specifies the number of results to offset. This is useful for pagination. Default value is 0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <a href="#//api/name/getContentsForContainerID:structureID:limit:offset:success:failure:"><code>getContentsForContainerID:structureID:limit:offset:success:failure:</code></a> succeeds. This block has no return value and takes three arguments: the content received from the server, a <a href="../Classes/PWPagination.html"><code>PWPagination</code></a> object that details content pagination information and a BOOL value that indicates whether or not paging is enabled. The structure of the content data relies completely on the structure of the structures and schemas.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <a href="#//api/name/getContentsForContainerID:structureID:limit:offset:success:failure:"><code>getContentsForContainerID:structureID:limit:offset:success:failure:</code></a> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addContent:containerID:structureID:parentContentID:success:failure:" title="addContent:containerID:structureID:parentContentID:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addContent:containerID:structureID:parentContentID:success:failure:">+&nbsp;addContent:containerID:structureID:parentContentID:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to save new content. If no parent content exists, you should use <code>addContent:structureID:success:failure:</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)addContent:(NSDictionary *)<em>content</em> containerID:(NSString *)<em>containerID</em> structureID:(NSUInteger)<em>structureID</em> parentContentID:(NSString *)<em>parentContentID</em> success:(void ( ^ ) ( NSString *newContentID ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>content</code></th>
+						<td><p>The content to save.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to add the content to.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure the content is associated to.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parentContentID</code></th>
+						<td><p>The ID of the parent content item. This is used to link up any dynamic children of this structure item that may have already been created when the associated structure is itself within a dynamic structure item. When this is the case, the only way to know which child content path is associated with this parent content data is to supply the parent to this content item.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>addContent:structureID:parentContentID:success:failure:</code> succeeds. This block has no return value and takes no arguments.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>addContent:structureID:parentContentID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addContent:containerID:structureID:success:failure:" title="addContent:containerID:structureID:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addContent:containerID:structureID:success:failure:">+&nbsp;addContent:containerID:structureID:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to save new content. If parent content exists, you should use <code>addContent:structureID:parentContentID:success:failure:</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)addContent:(NSDictionary *)<em>content</em> containerID:(NSString *)<em>containerID</em> structureID:(NSUInteger)<em>structureID</em> success:(void ( ^ ) ( NSString *newContentID ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>content</code></th>
+						<td><p>The content to save.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to add the content to.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The ID of the structure the content is associated to.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>addContent:structureID:success:failure:</code> succeeds. This block has no return value and takes no arguments.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>addContent:structureID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updateContentForContentID:containerID:structureID:updatedContent:success:failure:" title="updateContentForContentID:containerID:structureID:updatedContent:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateContentForContentID:containerID:structureID:updatedContent:success:failure:">+&nbsp;updateContentForContentID:containerID:structureID:updatedContent:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to update existing content.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)updateContentForContentID:(NSString *)<em>contentID</em> containerID:(NSString *)<em>containerID</em> structureID:(NSUInteger)<em>structureID</em> updatedContent:(NSDictionary *)<em>updatedContent</em> success:(void ( ^ ) ( void ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentID</code></th>
+						<td><p>The specified Content ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container where the content resides.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The specified structure ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>updatedContent</code></th>
+						<td><p>The updated content. If a parameter IS NOT specified, it will retain its current value. If a parameter IS specified with an empty value, then the value will be cleared.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>updateContentForContentID:strucureID:updatedContent:success:failure:</code> succeeds. This block has no return value and takes no arguments.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>updateContentForContentID:structureID:updatedContent:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updateContentForContentID:containerID:structureID:parentContentID:updatedContent:success:failure:" title="updateContentForContentID:containerID:structureID:parentContentID:updatedContent:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateContentForContentID:containerID:structureID:parentContentID:updatedContent:success:failure:">+&nbsp;updateContentForContentID:containerID:structureID:parentContentID:updatedContent:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to update existing content.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)updateContentForContentID:(NSString *)<em>contentID</em> containerID:(NSString *)<em>containerID</em> structureID:(NSUInteger)<em>structureID</em> parentContentID:(NSString *)<em>parentContentID</em> updatedContent:(NSDictionary *)<em>updatedContent</em> success:(void ( ^ ) ( void ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentID</code></th>
+						<td><p>The specified Content ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container where the content resides.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>structureID</code></th>
+						<td><p>The specified structure ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parentContentID</code></th>
+						<td><p>The specified parent Content ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>updatedContent</code></th>
+						<td><p>The updated content. If a parameter IS NOT specified, it will retain its current value. If a parameter IS specified with an empty value, then the value will be cleared.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>updateContentForContentID:updatedContent:structureID:parentContentID:success:failure:</code> succeeds. This block has no return value and takes no arguments.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>updateContentForContentID:updatedContent:structureID:parentContentID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteContentForContentID:traverse:success:failure:" title="deleteContentForContentID:traverse:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteContentForContentID:traverse:success:failure:">+&nbsp;deleteContentForContentID:traverse:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to delete a specific content item. If the associated structure for the content is a dynamic object structure residing in a parent array structure, then all child content will be deleted as well. However, if the associated structure for the content is a static structure item, only the specified content will be deleted.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)deleteContentForContentID:(NSString *)<em>contentID</em> traverse:(BOOL)<em>traverse</em> success:(void ( ^ ) ( void ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentID</code></th>
+						<td><p>The specified Content ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>traverse</code></th>
+						<td><p>If &lsquo;YES&rsquo;, then child content will be deleted as well. This parameter is only useful when the Content ID is associated to a static structure item. In that case, the content for the static structure item will be deleted, along with any content within that structure item.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>deleteContentForContentID:traverse:success:failure:</code> succeeds. This block has no return value and takes no arguments.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>deleteContentForContentID:traverse:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteContentChildrenForContentID:success:failure:" title="deleteContentChildrenForContentID:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteContentChildrenForContentID:success:failure:">+&nbsp;deleteContentChildrenForContentID:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is used to delete all child elements within an array structure item.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)deleteContentChildrenForContentID:(NSString *)<em>contentID</em> success:(void ( ^ ) ( void ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentID</code></th>
+						<td><p>The specified Content ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>deleteContentChildrenForContentID:success:failure:</code> succeeds. This block has no return value and takes no arguments.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>deleteContentChildrenForContentID:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Cache Control" name="task_Cache Control"></a>
+						<h2 class="task-title">Cache Control</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setCacheTTL:" title="setCacheTTL:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCacheTTL:">+&nbsp;setCacheTTL:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set the TTL in seconds for caching CME content.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCacheTTL:(NSTimeInterval)<em>timeToLive</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>timeToLive</code></th>
+						<td><p>The specified cache time to live in seconds.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If there is no network connectivity or the content fails to fetch from CME for another reason the cache will return the last valid piece of content regardless of the TTL.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cacheTTL" title="cacheTTL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cacheTTL">+&nbsp;cacheTTL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The TTL for CME content in seconds. Defaults to 0.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSTimeInterval)cacheTTL</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The cached content TTL.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trimCacheToDate:" title="trimCacheToDate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trimCacheToDate:">+&nbsp;trimCacheToDate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes all objects from the cache that have not been used since the specified date.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trimCacheToDate:(NSDate *)<em>date</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>date</code></th>
+						<td><p>Objects that haven&rsquo;t been accessed since this date are removed from the cache.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearCache" title="clearCache"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearCache">+&nbsp;clearCache</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes all CME data from the cache. This method blocks the calling thread until the cache has been cleared.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)clearCache</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getAllContentsForContainerID:depth:success:failure:" title="getAllContentsForContainerID:depth:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getAllContentsForContainerID:depth:success:failure:">+&nbsp;getAllContentsForContainerID:depth:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets all content based on the menu hierarchy and schemas. The structure of the response data for this method relies completely on the structure and schemas.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getAllContentsForContainerID:(NSString *)<em>containerID</em> depth:(NSInteger)<em>depth</em> success:(void ( ^ ) ( NSDictionary *contents ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>containerID</code></th>
+						<td><p>The ID of the container to get the content for.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>depth</code></th>
+						<td><p>The depth to traverse into child structures. If the depth is set to 0 then no child structures will be returned, if the depth is set to 1 then the immediate child structures will be returned, and so on. To get the full hierarchy of children use <code>kPWCMEDepthFullHierarchy</code>. Be careful when using this value for large structures.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>A block object to be executed when <code>getAllContentsForContainerID:limit:offset:success:failure:</code> succeeds. This block has no return value and takes three arguments: the content received from the server, a <a href="../Classes/PWPagination.html"><code>PWPagination</code></a> object that details content pagination information and a BOOL value that indicates whether or not paging is enabled. The structure of the content data relies completely on the structure of the structures and schemas.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>A block object to be executed when <code>getAllContentsForContainerID:limit:offset:success:failure:</code> fails. This block has no return value and takes one argument: an NSError object describing the error that occurred.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It&rsquo;s important to note that this method only returns the specified pagination parameters for the root level array object. Nested arrays default to a pagination of 10 and a limit of 0.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">PWCME.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Phunware, Inc. All rights reserved. Updated: 2018-04-05</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/PWLogLevel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/PWLogLevel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PWLogLevelNone</TokenIdentifier>
+            <Abstract type="html">Specifies all logging as disabled. This is the default logging level.
+     </Abstract>
+            <Declaration>PWLogLevelNone</Declaration>
+            
+            <DeclaredIn>PWLogger.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PWLogLevelError</TokenIdentifier>
+            <Abstract type="html">Only log errors.
+     </Abstract>
+            <Declaration>PWLogLevelError</Declaration>
+            
+            <DeclaredIn>PWLogger.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PWLogLevelWarning</TokenIdentifier>
+            <Abstract type="html">Log warnings and errors.
+     </Abstract>
+            <Declaration>PWLogLevelWarning</Declaration>
+            
+            <DeclaredIn>PWLogger.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PWLogLevelInfo</TokenIdentifier>
+            <Abstract type="html">Log information, warnings and errors.
+     </Abstract>
+            <Declaration>PWLogLevelInfo</Declaration>
+            
+            <DeclaredIn>PWLogger.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PWLogLevelDebug</TokenIdentifier>
+            <Abstract type="html">Logs all messages.
+     </Abstract>
+            <Declaration>PWLogLevelDebug</Declaration>
+            
+            <DeclaredIn>PWLogger.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

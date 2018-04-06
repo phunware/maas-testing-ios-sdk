@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PWLogger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PWLogger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/setServiceName:</TokenIdentifier>
+			<Abstract type="html">The name of the service that corresponds to the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/serviceName</TokenIdentifier>
+			<Abstract type="html">The name of the service that corresponds to the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/PWLogger/serviceName</TokenIdentifier>
+			<Abstract type="html">The name of the service that corresponds to the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/setBaseLevel:</TokenIdentifier>
+			<Abstract type="html">The base level of the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) PWLogLevel baseLevel</Declaration>
+			
+			
+			<Anchor>//api/name/baseLevel</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/baseLevel</TokenIdentifier>
+			<Abstract type="html">The base level of the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) PWLogLevel baseLevel</Declaration>
+			
+			
+			<Anchor>//api/name/baseLevel</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/PWLogger/baseLevel</TokenIdentifier>
+			<Abstract type="html">The base level of the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) PWLogLevel baseLevel</Declaration>
+			
+			
+			<Anchor>//api/name/baseLevel</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/setAsyncLogging:</TokenIdentifier>
+			<Abstract type="html">Indicates if the logger needs to execute in the background</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL asyncLogging</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLogging</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/asyncLogging</TokenIdentifier>
+			<Abstract type="html">Indicates if the logger needs to execute in the background</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL asyncLogging</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLogging</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/PWLogger/asyncLogging</TokenIdentifier>
+			<Abstract type="html">Indicates if the logger needs to execute in the background</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL asyncLogging</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLogging</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/init</TokenIdentifier>
+			<Abstract type="html">initializer</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/new</TokenIdentifier>
+			<Abstract type="html">initializer</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)new</Declaration>
+			
+			
+			<Anchor>//api/name/new</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/loggerWithServiceName:</TokenIdentifier>
+			<Abstract type="html">Convenience constructor to create logger</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)loggerWithServiceName:(NSString *)serviceName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>serviceName</Name>
+					<Abstract type="html">The service name that corresponds to the logger.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loggerWithServiceName:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PWLogger/logMessage:</TokenIdentifier>
+			<Abstract type="html">Logs a message using the logger.</Abstract>
+			<DeclaredIn>PWLogger.h</DeclaredIn>
+			
+			<Declaration>- (void)logMessage:(PWLogMessage *)logMessage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>logMessage</Name>
+					<Abstract type="html">The logmessage to be logged.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logMessage:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PWCore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PWCore</TokenIdentifier>
+			<Abstract type="html">PWCore implements core functionality used in all MaaS modules. All MaaS modules have a PWCore dependency.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/setApplicationID:accessKey:signatureKey:</TokenIdentifier>
+			<Abstract type="html">Initializes PWCore and all associated MaaS modules. This method should be called inside application:didFinishLaunchingWithOptions: before you do anything else.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (void)setApplicationID:(NSString *)applicationID accessKey:(NSString *)accessKey signatureKey:(NSString *)signatureKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>applicationID</Name>
+					<Abstract type="html">You can find your Application ID in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">A unique key that identifies the client making the request. You can find your Access Key in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>signatureKey</Name>
+					<Abstract type="html">A unique key that is used to sign requests. The signature is used to both check request authorization as well as data integrity. You can find your Signature Key in the MaaS portal.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setApplicationID:accessKey:signatureKey:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/setApplicationID:accessKey:signatureKey:encryptionKey:</TokenIdentifier>
+			<Abstract type="html">  This method has been deprecated. Use setApplicationID:accessKey:signatureKey: instead.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (void)setApplicationID:(NSString *)applicationID accessKey:(NSString *)accessKey signatureKey:(NSString *)signatureKey encryptionKey:(NSString *)encryptionKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>applicationID</Name>
+					<Abstract type="html">You can find your Application ID in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">A unique key that identifies the client making the request. You can find your Access Key in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>signatureKey</Name>
+					<Abstract type="html">A unique key that is used to sign requests. The signature is used to both check request authorization as well as data integrity. You can find your Signature Key in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>encryptionKey</Name>
+					<Abstract type="html">A unique encryption key this is no longer required. set empty string.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setApplicationID:accessKey:signatureKey:encryptionKey:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/applicationID</TokenIdentifier>
+			<Abstract type="html">Returns the MaaS Application ID.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)applicationID</Declaration>
+			
+			
+			<Anchor>//api/name/applicationID</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/deviceID</TokenIdentifier>
+			<Abstract type="html">Returns the Device ID.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/serviceName</TokenIdentifier>
+			<Abstract type="html">Returns &apos;PWCore&apos;.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/registerModule:version:withCompletion:</TokenIdentifier>
+			<Abstract type="html">This method registers the module and its version.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerModule:(NSString *)moduleName version:(NSString *)version withCompletion:(void ( ^ ) ( NSError *error ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>moduleName</Name>
+					<Abstract type="html">The name of the dependent module to be registered.</Abstract>
+				</Parameter><Parameter>
+					<Name>version</Name>
+					<Abstract type="html">version number for the module</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">The completion block to be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerModule:version:withCompletion:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/getAllRegisteredModules</TokenIdentifier>
+			<Abstract type="html">Returns a dictionary of registered modules.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (NSDictionary *)getAllRegisteredModules</Declaration>
+			
+			
+			<Anchor>//api/name/getAllRegisteredModules</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWCore/getVersionForModule:</TokenIdentifier>
+			<Abstract type="html">Returns version number for a registered module.</Abstract>
+			<DeclaredIn>PWCore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)getVersionForModule:(NSString *)moduleName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>moduleName</Name>
+					<Abstract type="html">The name of the dependent module to be registered.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getVersionForModule:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
